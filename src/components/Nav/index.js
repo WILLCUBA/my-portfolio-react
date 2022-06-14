@@ -1,48 +1,33 @@
-import React from "react";
+import React from 'react'
 
+// Bootstrap Components
+import Navbar from 'react-bootstrap/Navbar'
+import Nav from 'react-bootstrap/Nav'
+import Container from 'react-bootstrap/Container'
 
-function Nav({currentPage, handlePageChange}) {
-        return (
-            <ul className="nav nav-tabs">
-              <li className="nav-item">
-                <a
-                  href="#about-Me"
-                  onClick={() => handlePageChange('About-Me')}
-                  className={currentPage === 'About-Me' ? 'nav-link active' : 'nav-link'}
-                >
-                  About Me
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  href="#portfolio"
-                  onClick={() => handlePageChange('Portfolio')}
-                  className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
-                >
-                  Portfolio
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  href="#contact"
-                  onClick={() => handlePageChange('Contact')}
-                  className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
-                >
-                  Contact
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  href="#resume"
-                  onClick={() => handlePageChange('Resume')}
-                  className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
-                >
-                  Resume
-                </a>
-              </li>
-            </ul>
-          );
+const Navigation = function (props) {
+  const {setCurrentItem} = props
+
+  return (
+        <>
+          <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+            <Container>
+            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+              <Navbar.Collapse id="responsive-navbar-nav">
+                <Nav className="me-auto">
+                  <Navbar.Brand href="#portfolio" className="display-5">William Pinero</Navbar.Brand>
+                </Nav>
+                <Nav>
+                  <Nav.Link href="#portfolio" onClick={() => setCurrentItem("Portfolio")}>Portfolio</Nav.Link>
+                  <Nav.Link href="#resume" onClick={() => setCurrentItem("Resume")}>Resume</Nav.Link>
+                  <Nav.Link href="#aboutMe" onClick={() => setCurrentItem("AboutMe")}>About Me</Nav.Link>
+                  <Nav.Link href="#contact" onClick={() => setCurrentItem("Contact")}>Contact</Nav.Link>
+                </Nav>
+              </Navbar.Collapse>
+            </Container>
+          </Navbar>
+        </> 
+    )
 }
 
-
-export default Nav;
+export default Navigation
