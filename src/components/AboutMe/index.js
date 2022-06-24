@@ -4,23 +4,8 @@ import {motion} from "framer-motion"
 const AboutMe = function () {
         
         return (
-            <motion.div className="about section"
-            initial={{width:0}}
-            animate={{width:"100%"}}
-            transition={{ type: "spring", stiffness: 100 }}
-            exit={{x:window.innerWidth}}>
-                <div className="container">
-                    <div className="row">
-                        <div className="section-title padd-15">
-                            <h2>About Me</h2>
-                        </div>
-                    </div>
-                    <div className="row">
-                        <div className="about-content">
-                            About
-                        </div>
-                    </div>
-                </div>
+            <motion.div className="about section">
+                <h1>About Me</h1>
             </motion.div>
         )
     

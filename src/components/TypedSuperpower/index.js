@@ -16,7 +16,7 @@ const UseTypedSuperpower = function(superpowers) {
 
         const timeout = setTimeout(() => {
             setTypedSuperpower(superpowers[0].slice(0, typedSuperpower.length + 1))
-        }, 150)
+        }, 100)
 
         return () => clearTimeout(timeout)
     },[typedSuperpower, superpowers])

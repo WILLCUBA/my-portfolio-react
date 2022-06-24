@@ -5,6 +5,7 @@ import {BrowserRouter as Router} from 'react-router-dom';
 
 import Navbar from './Components/Aside'
 import AnimatedRoutes from './Components/AnimatedRoutes'
+
 function App() {
 
   return (
