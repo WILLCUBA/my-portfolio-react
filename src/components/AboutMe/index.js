@@ -1,11 +1,22 @@
 import React from "react";
 import {motion} from "framer-motion"
+import { Tabs, Tab} from "react-bootstrap";
 
 const AboutMe = function () {
         
         return (
             <motion.div className="about section">
-                <h1>About Me</h1>
+                <Tabs defaultActiveKey="about" id="" className="m-3">
+                    <Tab eventKey="Introduction" title="Introduction">
+                      
+                    </Tab>
+                    <Tab eventKey="Why Developer?" title="Why Developer?">
+                        
+                    </Tab>
+                    <Tab eventKey="Flaws/Virtues" title="Flaws/Virtues">
+                   
+                    </Tab>
+                </Tabs>
             </motion.div>
         )
     
