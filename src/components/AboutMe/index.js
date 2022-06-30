@@ -1,22 +1,50 @@
 import React from "react";
 import {motion} from "framer-motion"
-import { Tabs, Tab} from "react-bootstrap";
+import './aboutMe.css'
 
 const AboutMe = function () {
         
         return (
             <motion.div className="about section">
-                <Tabs defaultActiveKey="about" id="" className="m-3">
-                    <Tab eventKey="Introduction" title="Introduction">
-                      
-                    </Tab>
-                    <Tab eventKey="Why Developer?" title="Why Developer?">
+                <div class = "about-wrapper">
+                    <div class = "about-left">
+                        <div class = "about-left-content">
+                        <div>
+                            <div class = "shadow">
+                                <div class = "about-img">
+                                    <img src = "https://cdn.pixabay.com/photo/2018/11/13/21/43/instagram-3814049__340.png" alt = "about"/>
+                                </div>
+                            </div>
+
+                            <h2>Wilian Pinero Gonzalez</h2>
+                            <h3>Full Stack Web Developer</h3>
+                        </div>
+
+                        <ul class = "icons">
+                            <li><i class = "fab fa-facebook-f"></i></li>
+                            <li><i class = "fab fa-twitter"></i></li>
+                            <li><i class = "fab fa-linkedin"></i></li>
+                            <li><i class = "fab fa-instagram"></i></li>
+                        </ul>
+                        </div>
                         
-                    </Tab>
-                    <Tab eventKey="Flaws/Virtues" title="Flaws/Virtues">
-                   
-                    </Tab>
-                </Tabs>
+                    </div>
+
+                    <div class = "about-right">
+                        <h1>Hello<span>!</span></h1>
+                        <h2>Here's who I am & what I do</h2>
+                        <div class = "about-btns">
+                            <button type = "button" class = "btn abuout-btn btn-pink">resume / CV</button>
+                            <button type = "button" class = "btn about-btn btn-white">Git hub</button>
+                        </div>
+
+                        <div class = "about-para">
+                            <p>I am outgoing, dedicated, and open-minded. I get across to people and adjust to changes with ease. I believe that a person should work on developing their professional skills and learning new things all the time. Currently, I am looking for new career opportunities my current job position cannot provide.</p>
+                            <p>My Professional Dream is to work every day doing logic <i style={{color:"yellow"}} class="fa-solid fa-lightbulb"></i>.</p>
+                            <p>”Have I not commanded you? Be strong and courageous. Do not be afraid; do not be discouraged, for the Lord your God will be with you wherever you go.” <br/><span style={{color:"tomato"}}><i style={{color:"tomato"}} class="fa-solid fa-book-bible"></i> Joshua 1:9</span> </p>
+                        </div>
+                    </div>
+                    </div>
             </motion.div>
         )
     
