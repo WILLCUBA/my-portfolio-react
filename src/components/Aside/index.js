@@ -15,7 +15,7 @@ const Aside = function () {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="nav aside-nav justify-content-center w-100">
-                        <NavLink className="aside-nav-link"  to="/">Home</NavLink>
+                        <NavLink className="aside-nav-link active"   to="/">Home</NavLink>
                         <NavLink className="aside-nav-link"  to="/portfolio">Portfolio</NavLink>
                         <NavLink className="aside-nav-link"  to="/resume">Resume</NavLink>
                         <NavLink className="aside-nav-link"  to="/about">About Me</NavLink>
