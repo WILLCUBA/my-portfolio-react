@@ -1,5 +1,6 @@
 import React from 'react'
 import {BrowserRouter as Router} from 'react-router-dom';
+import Home from './Components/Home'
 //Components
 
 
@@ -12,6 +13,7 @@ function App() {
     <>
     <Router>
       <Navbar />
+      <Home/>
       <AnimatedRoutes/>
     </Router>
     </>
