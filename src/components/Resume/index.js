@@ -1,10 +1,9 @@
 import React from 'react';
 import {motion} from 'framer-motion'
 import portfolio from '../../assets/WilianPineroResume.PDF'
-import {ProgressBar} from 'react-bootstrap'
 
 const container = {
-        hidden: { opacity: 0 },
+        hidden: { opacity: 0.2 },
         show: {
           opacity: 1,
           transition: {
@@ -14,11 +13,13 @@ const container = {
       }
       
 const item = {
-        hidden: { opacity: 0 },
+        hidden: { opacity: 0.2 },
         show: { opacity: 1 }
+
         }
 
 const Resume = function () {
+        console.log('Resume'*2)
         return (
             <motion.div>
                 <div className="container text-center">
