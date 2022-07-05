@@ -1,6 +1,5 @@
 import React from 'react';
 import {motion} from 'framer-motion'
-import portfolio from '../../assets/WilianPineroResume.PDF'
 
 const container = {
         hidden: { opacity: 0.2 },
@@ -24,9 +23,7 @@ const Resume = function () {
             <motion.div>
                 <div className="container text-center">
                         <p>Download Resume</p>
-                        <a className="btn btn-danger" href={portfolio} download>
-                                <i className="fa fa-file-pdf" aria-hidden="true"></i> Download PDF
-                        </a>
+
                 </div>
                 <div className="Education m-4">
                 <h1 className="text-center">Education</h1>

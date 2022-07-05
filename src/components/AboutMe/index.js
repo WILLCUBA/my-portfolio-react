@@ -1,6 +1,8 @@
 import React from "react";
 import {motion} from "framer-motion"
 import './aboutMe.css'
+import resume from '../../assets/WilianPineroResume.PDF'
+import profilePic from '../../assets/imgs/hero.png'
 
 const AboutMe = function () {
         
@@ -12,30 +14,29 @@ const AboutMe = function () {
                         <div>
                             <div class = "shadow">
                                 <div class = "about-img">
-                                    <img src = "https://cdn.pixabay.com/photo/2018/11/13/21/43/instagram-3814049__340.png" alt = "about"/>
+                                    <img src = {profilePic} alt = "about"/>
                                 </div>
                             </div>
-
+                            <p className="text-muted">Yes I know, I have to change the picture :)</p>
                             <h2>Wilian Pinero Gonzalez</h2>
                             <h3>Full Stack Web Developer</h3>
                         </div>
 
                         <ul class = "icons">
-                            <li><i class = "fab fa-facebook-f"></i></li>
-                            <li><i class = "fab fa-twitter"></i></li>
-                            <li><i class = "fab fa-linkedin"></i></li>
-                            <li><i class = "fab fa-instagram"></i></li>
+                            
+                            <li><a href="https://github.com/WILLCUBA" target="_blank"><i class = "fab fa-github"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/willpinero/"><i class = "fab fa-linkedin"></i></a></li> 
                         </ul>
-                        </div>
-                        
+                        </div>                       
                     </div>
 
                     <div class = "about-right">
                         <h1>Hello<span>!</span></h1>
                         <h2>Here's who I am & what I do</h2>
                         <div class = "about-btns">
-                            <button type = "button" class = "btn abuout-btn btn-pink">resume / CV</button>
-                            <button type = "button" class = "btn about-btn btn-white">Git hub</button>
+                            <a className = "btn abuout-btn btn-pink" href={resume} download>
+                                Resume / CV
+                            </a>
                         </div>
 
                         <div class = "about-para">
