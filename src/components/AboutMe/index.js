@@ -1,7 +1,7 @@
 import React from "react";
 import {motion} from "framer-motion"
 import './aboutMe.css'
-import resume from '../../assets/WilianPineroResume.PDF'
+import resume from '../../assets/WilianPineroGResume.pdf'
 import profilePic from '../../assets/imgs/hero.png'
 
 const AboutMe = function () {
@@ -40,7 +40,7 @@ const AboutMe = function () {
                         </div>
 
                         <div class = "about-para">
-                            <p>I am outgoing, dedicated, and open-minded. I get across to people and adjust to changes with ease. I believe that a person should work on developing their professional skills and learning new things all the time. Currently, I am looking for new career opportunities my current job position cannot provide.</p>
+                            <p>I am outgoing, dedicated, and open-minded. I get across to people and adjust to changes with ease. I believe that a person should work on developing their professional skills and learning new things all the time. Currently, I am looking for new career opportunities that my current job position cannot provide.</p>
                             <p>My Professional Dream is to work every day doing logic <i style={{color:"yellow"}} class="fa-solid fa-lightbulb"></i>.</p>
                             <p>”Have I not commanded you? Be strong and courageous. Do not be afraid; do not be discouraged, for the Lord your God will be with you wherever you go.” <br/><span style={{color:"tomato"}}><i style={{color:"tomato"}} class="fa-solid fa-book-bible"></i> Joshua 1:9</span> </p>
                         </div>
