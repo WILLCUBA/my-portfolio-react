@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/my-portfolio-react/static/css/main.89e5cbae.css",
-    "main.js": "/my-portfolio-react/static/js/main.b4245ad8.js",
-    "static/media/recipeFinder.jpg": "/my-portfolio-react/static/media/recipeFinder.040429fcbf77ff014dbb.jpg",
-    "static/media/codeQuiz.gif": "/my-portfolio-react/static/media/codeQuiz.f809ce631baf42e3f7af.gif",
-    "static/media/raceOfTheYear.png": "/my-portfolio-react/static/media/raceOfTheYear.43e622f9e998434c6acf.png",
-    "static/media/wheatherDashboard.png": "/my-portfolio-react/static/media/wheatherDashboard.0d6bdbf4f55deff37b4b.png",
-    "static/media/findIt.png": "/my-portfolio-react/static/media/findIt.f9562f03b75fc3dc5f06.png",
-    "static/media/WilianPineroResume.PDF": "/my-portfolio-react/static/media/WilianPineroResume.c7f2d3745e1b3fa6a3f7.PDF",
-    "static/media/runbuddy.jpg": "/my-portfolio-react/static/media/runbuddy.fdb65ef33fecd17ee329.jpg",
-    "static/media/noteTaker.PNG": "/my-portfolio-react/static/media/noteTaker.d39203506e231d7f3033.PNG",
-    "static/media/budgetTracker.png": "/my-portfolio-react/static/media/budgetTracker.f302a1e60002333938b3.png",
-    "index.html": "/my-portfolio-react/index.html",
-    "main.89e5cbae.css.map": "/my-portfolio-react/static/css/main.89e5cbae.css.map",
-    "main.b4245ad8.js.map": "/my-portfolio-react/static/js/main.b4245ad8.js.map"
+    "main.css": "/static/css/main.53af4259.css",
+    "main.js": "/static/js/main.cb835a75.js",
+    "static/media/recipeFinder.jpg": "/static/media/recipeFinder.040429fcbf77ff014dbb.jpg",
+    "static/media/hero.png": "/static/media/hero.5cb3b30c08333f15b9fa.png",
+    "static/media/codeQuiz.gif": "/static/media/codeQuiz.f809ce631baf42e3f7af.gif",
+    "static/media/raceOfTheYear.png": "/static/media/raceOfTheYear.43e622f9e998434c6acf.png",
+    "static/media/wheatherDashboard.png": "/static/media/wheatherDashboard.0d6bdbf4f55deff37b4b.png",
+    "static/media/findIt.png": "/static/media/findIt.f9562f03b75fc3dc5f06.png",
+    "static/media/WilianPineroResume.PDF": "/static/media/WilianPineroResume.c7f2d3745e1b3fa6a3f7.PDF",
+    "static/media/runbuddy.jpg": "/static/media/runbuddy.fdb65ef33fecd17ee329.jpg",
+    "static/media/noteTaker.PNG": "/static/media/noteTaker.d39203506e231d7f3033.PNG",
+    "static/media/budgetTracker.png": "/static/media/budgetTracker.f302a1e60002333938b3.png",
+    "index.html": "/index.html",
+    "main.53af4259.css.map": "/static/css/main.53af4259.css.map",
+    "main.cb835a75.js.map": "/static/js/main.cb835a75.js.map"
   },
   "entrypoints": [
-    "static/css/main.89e5cbae.css",
-    "static/js/main.b4245ad8.js"
+    "static/css/main.53af4259.css",
+    "static/js/main.cb835a75.js"
   ]
 }
