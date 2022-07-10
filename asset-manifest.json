@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-portfolio-react/static/css/main.520ebdc2.css",
-    "main.js": "/my-portfolio-react/static/js/main.cdc01c2b.js",
+    "main.js": "/my-portfolio-react/static/js/main.733b9932.js",
     "static/media/recipeFinder.jpg": "/my-portfolio-react/static/media/recipeFinder.040429fcbf77ff014dbb.jpg",
     "static/media/hero.png": "/my-portfolio-react/static/media/hero.5cb3b30c08333f15b9fa.png",
     "static/media/codeQuiz.gif": "/my-portfolio-react/static/media/codeQuiz.f809ce631baf42e3f7af.gif",
@@ -12,12 +12,14 @@
     "static/media/runbuddy.jpg": "/my-portfolio-react/static/media/runbuddy.fdb65ef33fecd17ee329.jpg",
     "static/media/noteTaker.PNG": "/my-portfolio-react/static/media/noteTaker.d39203506e231d7f3033.PNG",
     "static/media/budgetTracker.png": "/my-portfolio-react/static/media/budgetTracker.f302a1e60002333938b3.png",
+    "static/media/passwordGenerator.png": "/my-portfolio-react/static/media/passwordGenerator.95a8234730ce17c66b57.png",
+    "static/media/nodejs.png": "/my-portfolio-react/static/media/nodejs.de3939eb99e086fdf18b.png",
     "index.html": "/my-portfolio-react/index.html",
     "main.520ebdc2.css.map": "/my-portfolio-react/static/css/main.520ebdc2.css.map",
-    "main.cdc01c2b.js.map": "/my-portfolio-react/static/js/main.cdc01c2b.js.map"
+    "main.733b9932.js.map": "/my-portfolio-react/static/js/main.733b9932.js.map"
   },
   "entrypoints": [
     "static/css/main.520ebdc2.css",
-    "static/js/main.cdc01c2b.js"
+    "static/js/main.733b9932.js"
   ]
 }
